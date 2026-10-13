@@ -1,0 +1,8 @@
+# Dolny pasek tmux z licznikiem tokenow (Claude albo agy, zalezy od sesji).
+# Bottom tmux bar with the token counter (Claude or agy, depending on the session).
+# Wklej do ~/.tmux.conf / paste into ~/.tmux.conf, then: tmux source-file ~/.tmux.conf
+set -g status on
+set -g status-position bottom
+set -g status-interval 3
+set -g status-right-length 140
+set -g status-right "#(~/.local/bin/tokeny --tmux '#{session_name}') #[fg=colour244]│ %H:%M #[default]"

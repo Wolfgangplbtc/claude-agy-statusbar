@@ -1,0 +1,5 @@
+{
+  "name": "licznik-tokenow",
+  "version": "1.0.0",
+  "description": "Lokalny monitor i licznik zużycia tokenów w czasie rzeczywistym bez zapytań do modeli AI dla Claude, Antigravity (agy) oraz Codex."
+}

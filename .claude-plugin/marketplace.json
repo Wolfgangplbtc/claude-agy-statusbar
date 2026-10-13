@@ -1,0 +1,8 @@
+{
+  "name": "claude-agy-statusbar",
+  "owner": { "name": "Wolfgangplbtc" },
+  "description": "Status bars for Claude Code and Antigravity (agy) CLI: limits, context, cache, handoff.",
+  "plugins": [
+    { "name": "cache-bar", "source": "./cache-bar" }
+  ]
+}

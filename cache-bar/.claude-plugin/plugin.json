@@ -1,0 +1,1 @@
+{ "name": "cache-bar", "version": "0.3.0", "description": "Two-line status bar like agy: account, project+branch, 5h/week limits, model, cache, context, turns, handoff status + button + automatic handoff (/handoff-auto); writes ~/.claude/stan-sesji for Agent Hub", "types": "./types/index.d.ts" }
